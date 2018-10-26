@@ -8,6 +8,7 @@ install:
   - ps: Install-Product node 8
   - npm install
   - npm i angular-cli-ghpages --save-dev
+  - npm i -g @angular/cli
 
 build_script:
   - ng build
